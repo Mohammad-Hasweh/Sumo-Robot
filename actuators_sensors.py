@@ -87,23 +87,20 @@ class SumoMovment:
 
 
 
-class EdgeSensor:
+class IR:
     def __init__(self,pin):
         self.pin=pin
         #GPIO.setup(self.pin, GPIO.IN)
 
-    def is_white(self):
+    def read(self):
         pass
-        #return GPIO.input(self.pin)==GPIO.HIGH
+        #return GPIO.input(self.pin)
 
 
 
-class IR():
-    def __init__(self,pin):
-        self.pin = pin
-        # GPIO.setup(self.pin, GPIO.IN)
 
-    def detected(self):
-        pass
-        #return GPIO.input(self.pin)==GPIO.HIGH
+
+
+
+
 
