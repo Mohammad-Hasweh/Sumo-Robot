@@ -1,7 +1,8 @@
 from actuators_sensors import *
+import  time
 class Attack:
     def __init__(self,move):
-        self.move=move
+        self.sumo=move
 
     def push(self):
         """
@@ -9,7 +10,8 @@ class Attack:
         Desc:directly pushing the opponent out of the ring
 
         """
-        self.move.move_forward()
+        self.sumo.set_speed()
+        self.sumo.move_forward()
 
 
     def side_flank(self):
@@ -19,6 +21,9 @@ class Attack:
 
         """
         pass
+
+
+
     def back_flank(self):
         """
 
@@ -33,6 +38,11 @@ class Attack:
         Desc:Repeatedly ramming the opponent(Repeatedly  moving forward and backward)
 
         """
+        self.sumo.set_speed(100,100,100,100)
+        self.sumo.move_forward()
+        time.sleep(1)
+        self.sumo.move_backward()
+        time.sleep(.25)
         pass
 
     def dodge(self):
