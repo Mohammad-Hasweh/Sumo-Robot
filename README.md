@@ -70,4 +70,4 @@ Welcome to the repository for the BatmanAmman Sumo Robot, a project designed for
 
 ## Contact
 
-For questions or further information, please reach out to us at [hasweh03@gmail.com].
+For questions or further information, please reach out to us at hasweh03@gmail.com .
