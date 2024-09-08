@@ -46,7 +46,7 @@ Welcome to the repository for the BatmanAmman Sumo Robot, a project designed for
 
 ## Design Showcase
 
-![Sumo Robot Prototype](prototype.png)  
+![Sumo Robot Prototype](prototype.PNG)  
 
 
 ## Installation and Usage
